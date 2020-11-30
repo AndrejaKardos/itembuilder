@@ -1,5 +1,7 @@
 .itemlibrary {
     width: 50vw;
     height: 80vh;
-    border: 1px solid blue;
+    background-image: linear-gradient(60deg, #071a28,#134b61);
+    color: #D9DECB;
+    border: 1px solid #4C6067;
 }
