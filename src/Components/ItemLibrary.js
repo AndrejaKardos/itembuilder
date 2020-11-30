@@ -6,9 +6,9 @@ function ItemLibrary() {
         <div className="itemlibrary">
             <div>Search</div>
             <div>Filter component</div>
-            <div>Epic</div>
-            <div>Legendary</div>
-            <div>Mythic items</div>
+            <div>EPIC</div>
+            <div>LEGENDARY</div>
+            <div>MYTHIC</div>
         </div>
     )
 }
