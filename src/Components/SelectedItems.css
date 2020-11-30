@@ -1,0 +1,9 @@
+.selecteditems {
+    width: 30vw;
+    height: 15vh;
+    background-image: linear-gradient(60deg, #071a28,#134b61);
+    color: #D9DECB;
+    font-family: 'Noto Sans', 'Gill Sans', sans-serif;
+    letter-spacing: 0.05rem;
+    border: 1px solid #4C6067;
+}
