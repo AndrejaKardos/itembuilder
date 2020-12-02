@@ -1,0 +1,4 @@
+.itemmain {
+    display: flex;
+    flex-direction: row;
+}
