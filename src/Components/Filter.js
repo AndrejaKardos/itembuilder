@@ -1,4 +1,5 @@
 import React from 'react'
+import './Filter.css'
 import Fighter_icon from '../img/Fighter_icon.png'
 
 function Filter() {
