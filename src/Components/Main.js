@@ -1,7 +1,6 @@
 import React from 'react'
 import Header from './Header'
-import ItemLibrary from './ItemLibrary'
-import ChampionEquip from './ChampionEquip'
+import ItemMain from './ItemMain'
 import Footer from './Footer'
 import './Main.css'
 
@@ -9,10 +8,7 @@ function Main() {
   return (
     <div className='main'>
         <Header />
-        <div className='main__items'>
-            <ItemLibrary />
-            <ChampionEquip />
-        </div>
+        <ItemMain />
         <Footer />
     </div>
   )

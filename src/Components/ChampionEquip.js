@@ -4,7 +4,7 @@ import ChampionStats from './ChampionStats'
 
 function ChampionEquip() {
     return(
-        <div>
+        <div className='championeqip'>
             <SelectedItems />
             <ChampionStats />
         </div>
