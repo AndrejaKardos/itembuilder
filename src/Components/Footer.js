@@ -1,8 +1,11 @@
 import React from 'react'
+import './Footer.css'
 
 function Footer() {
     return(
-        <div>CONTACT INFO | FAQ | POLICY | SOCIAL MEDIA</div>
+        <div className='footer'>
+            CONTACT INFO | FAQ | POLICY | SOCIAL MEDIA
+        </div>
     );
 }
 
