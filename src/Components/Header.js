@@ -1,9 +1,10 @@
 import React from 'react'
+import Navbar from './Navbar.js'
 
 function Header() {
     return (
         <div className='header'>
-            <div>LOGO | NAV BAR | SEARCH</div>
+            LOGO <Navbar />
         </div>
     );
 }
