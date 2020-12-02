@@ -6,4 +6,6 @@
     font-family: 'Noto Sans', 'Gill Sans', sans-serif;
     letter-spacing: 0.05rem;
     border: 1px solid #4C6067;
+    overflow-x: hidden;
+    overflow-y: auto;
 }
