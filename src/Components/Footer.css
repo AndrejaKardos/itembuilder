@@ -1,9 +1,13 @@
 .footer {
     margin-top: 1rem;
     padding: 1rem;
-    background-color: rgb(243, 250, 213);
+    background-color: rgb(42, 85, 106);
     position: fixed;
     bottom: 0;
     left: 0;
     width: 100%;
+    font-family: 'Noto Sans', 'Gill Sans', sans-serif;
+    letter-spacing: 0.1rem;
+    color: #D9DECB;
+    font-weight: 600;
 }
