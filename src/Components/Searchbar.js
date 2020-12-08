@@ -5,7 +5,14 @@ import './Searchbar.css'
 
 
 function Searchbar() {
+    const [items, setItems] = useState([])
     const [search, setSearch] = useState('')
+
+
+    // To be added to mapping later
+    const filteredItems = items.filter( item => {
+        return item.name.toLowerCase().includes( search.toLowerCase() )
+    })
 
     return (
         <div className='searchbar'>
@@ -16,7 +23,7 @@ function Searchbar() {
                 />
 
             <input 
-                type='search' 
+                type='text' 
                 className='searchbar__search'
                 onChange={ e => setSearch(e.target.value) }
             />
