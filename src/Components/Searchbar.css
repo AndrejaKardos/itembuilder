@@ -1,8 +1,9 @@
 .searchbar {
+    font-family: 'Noto Sans', 'Gill Sans', sans-serif;
     margin: 10px;
     border: solid 0.5px #dae4c4;
     padding: 4px;
-    background-color: rgb(18, 48, 66);
+    background-color: rgb(17, 44, 61);
 }
 
 .searchbar__icon {
@@ -11,4 +12,12 @@
 
 .searchbar__search:focus {
     outline: 0;
+}
+
+input.searchbar__search {
+    background-color: inherit;
+    color: #e1e9d0;
+    width: 500px;
+    letter-spacing: 0.1px;
+    border: none;
 }

@@ -16,7 +16,7 @@ function Searchbar() {
                 />
 
             <input 
-                type='text' 
+                type='search' 
                 className='searchbar__search'
                 onChange={ e => setSearch(e.target.value) }
             />
