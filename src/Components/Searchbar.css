@@ -1,0 +1,10 @@
+.searchbar {
+    margin: 10px;
+    border: solid 0.5px #dae4c4;
+    padding: 4px;
+    background-color: rgb(18, 48, 66);
+}
+
+.searchbar__icon {
+    margin: 1px 10px 0 5px;
+}
