@@ -8,3 +8,7 @@
 .searchbar__icon {
     margin: 1px 10px 0 5px;
 }
+
+.searchbar__search:focus {
+    outline: 0;
+}
