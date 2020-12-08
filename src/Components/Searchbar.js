@@ -1,10 +1,12 @@
-import React from 'react'
+import React, { useState } from 'react'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faSearch } from '@fortawesome/free-solid-svg-icons'
 import './Searchbar.css'
 
 
 function Searchbar() {
+    const [search, setSearch] = useState('')
+
     return (
         <div className='searchbar'>
             <FontAwesomeIcon 
@@ -13,7 +15,11 @@ function Searchbar() {
                     className='searchbar__icon' 
                 />
 
-            <input type='search' className='searchbar__search'></input>
+            <input 
+                type='text' 
+                className='searchbar__search'
+                onChange={ e => setSearch(e.target.value) }
+            />
         </div>
     );
 }
