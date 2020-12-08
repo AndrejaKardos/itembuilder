@@ -1,11 +1,12 @@
 import React from 'react'
+import Searchbar from './Searchbar'
 import Filter from './Filter.js'
 import './ItemLibrary.css'
 
 function ItemLibrary() {
     return (
         <div className="itemlibrary">
-            <div>Search</div>
+            <Searchbar />
             <Filter />
             <div>EPIC</div>
             <div>LEGENDARY</div>
